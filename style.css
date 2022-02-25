@@ -1,0 +1,64 @@
+.flex{
+  display: flex;
+}
+
+#container{
+  padding: 20px 0px 20px 0px;
+  flex-direction: row;
+  background-color: cornflowerblue;
+  justify-content: center;
+  gap: 20px
+}
+
+h1{
+  color: midnightblue;
+}
+
+h2{
+  color: violet;
+}
+
+img{
+  width: 450px;
+  height: 150px;
+}
+
+p{
+  line-height: 30px;
+}
+
+.content{
+  padding: 20px 20px 60px 20px;
+  font-family: sans-serif;
+}
+
+a{
+  align-items: flex-end;
+  background-color: darkgrey;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 10px
+}
+
+.interactivity p{
+  justify-content: space-between;
+  background-color: darkgrey;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.card{
+  flex-direction: column;
+  height: 550px;
+  width: 450px;
+  background-color: lightgrey;
+  
+}
+
+.interactivity{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.interactivity--stats{
+  flex-direction: column;
+}
